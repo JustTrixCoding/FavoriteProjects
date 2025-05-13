@@ -1,0 +1,111 @@
+/*
+Authors: Alexandra, Jose, Brinley, Ben, Kyle
+Date: 02/12/2025
+Last modified: 03/30/2025
+Purpose: CSS stylesheet for all pages
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FBF3EF;
+  font-family: sans-serif;
+}
+
+/*Style for the container that has login form*/
+.login-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+/*Title Style which is at the top of the login form*/
+.login-title{
+  text-align: left;
+}
+/*The styling for input fields boxes*/
+.login-input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+  /*The style for the input fields*/
+.login-input input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  /*The style of the text "Forgot Password?"*/
+.login-forgot{
+  text-align: right;
+  font-size: 11px;
+  display: block;
+}
+  /*The style for all buttons*/
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #E24C3B;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+  /*The style for when hoving over any of the buttons*/
+button:hover {
+  background-color: #B03A2C;
+}
+  /*The style for any links*/
+a {
+  color: #0088E0;
+  transition: color 0.2s ease-in-out;
+}
+  /*The style for when hovering over any links*/
+a:hover {
+  color: #006BB3;
+}
+  /*The style for switching between login page to registration page*/
+.login-switch{
+  text-align: center;
+  font-size: 11px;
+  display: block;
+}
+  /*Style for the container that has login form*/
+.register-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+/*Title Style which is at the top of the login form */
+.register-title{
+  text-align: left;
+}
+  /*The styling for input fields boxes*/
+.register-input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+  /*The style for the input fields*/ 
+.register-input input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  /*The style of the error messages */
+.error-message {
+  color: #E24C3B;
+  font-size: 14px;
+  margin-top: 10px;
+}
